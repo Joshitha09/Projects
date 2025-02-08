@@ -8,9 +8,9 @@ import imageio
 
 from PIL import Image, ImageTk
 
-background_image_path = r"C:\Users\HOME\Downloads\page1.jpg"
-background_image_path2 = r"C:\Users\HOME\Downloads\page11.mp4"
-background_image_path3 = r"C:\Users\HOME\Downloads\page2.jpg"
+background_image_path = r"C:\Users\HOME\Downloads\bg1.jpg"
+background_image_path2 = r"C:\Users\HOME\Downloads\bg3.mp4"
+background_image_path3 = r"C:\Users\HOME\Downloads\bg2.jpg"
 class WordSearchGame:
     def __init__(self, root, player_name, levels, level_index):
         self.root = root
